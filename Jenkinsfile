@@ -20,6 +20,7 @@ pipeline {
             
             steps {
                 echo 'Deploy'
+                sh 'mvn deploy'
             }
 
         }
